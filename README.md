@@ -67,12 +67,19 @@ The project showcases:
 ```bash
 Spark_ETL_Apple_Analysis/
 │
-├── datasets/
-├── notebooks/
-├── pyspark_jobs/
-├── sql/
-├── transformations/
-├── outputs/
-├── configs/
+├── SparkETLProject/
+│   │
+│   ├── InputTableFiles/
+│   │
+│   └── Notebooks/
+│      ├── Extractors/
+│      ├── Transformers/
+│      ├── Loaders/
+│      └── Workflows/
+│   
+│    
+│
 └── README.md
+  
+
 
