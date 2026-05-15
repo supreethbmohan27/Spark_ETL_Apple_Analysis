@@ -67,17 +67,18 @@ The project showcases:
 ```bash
 Spark_ETL_Apple_Analysis/
 │
-├── SparkETLProject/
-│   │
-│   ├── InputTableFiles/
-│   │
-│   └── Notebooks/
-│      ├── Extractors/
-│      ├── Transformers/
-│      ├── Loaders/
-│      └── Workflows/
-│   
-│    
+├── Customer_Delta_Table/        # Delta tables storage
+│
+├── InputTableFiles/             # Raw input datasets
+│
+├── Notebooks/                   # ETL implementation (Databricks)
+│   ├── Extractors
+│   ├── Transformers
+│   ├── Loaders
+│   └── Workflows
+│
+├── output/                      # Final processed Delta output
+│   └── onlyairpodsandiphone/
 │
 └── README.md
   
