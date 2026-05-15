@@ -1,4 +1,4 @@
-# Apple Analysis Project (Spark + DataBricks)
+# Apple Analysis (Spark + DataBricks)
 
 ## Overview
 This project demonstrates an end-to-end ETL pipeline built using Apache Spark for processing and analyzing Apple-related datasets at scale. The workflow focuses on distributed data ingestion, transformation, cleansing, and analytical processing using PySpark and modern data engineering practices.
